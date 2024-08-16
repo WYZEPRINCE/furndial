@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Authr" content="This is the official website of Furndial">
+    <link rel="icon" href="./images/Group 2.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout page</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <header id="header-container">
+       
+        <nav class="nav-bar">
+            <div class="navbar-content">
+                <a href="./index.html"><img src="./images/Group 2.png" alt="logo"></a>
+                <form class="search-form" action="./product.html">
+                    <input type="search" name="search products" id="search-btn" placeholder="Search products">
+                    <button>Search</button>
+                </form>
+                <div class="icon-container">
+                    <img src="./images/Group 2227.png" alt="favorite">
+                    <a class="cart-button" href="./cart.html"><img src="./images/mdi_cart.png" alt="cart"></a>
+                    <img src="./images/Group.png" alt="profile">
+                    <img src="./images/Group1.png" alt="notification">
+                </div>
+                <a href="/product.html"><button type="button" class="shop">SHOP NOW</button></a>
+
+                <img  class="menu-icon" src="./images/hamburgerMenu.png" alt="menu icon" id="menu-click">
+            </div>
+
+            <div class="nav-link">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="">Category</a></li>
+                    <li><a style="color: #F9600A;" href="./product.html"><b>Products</b></a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="billing-head"><h2>Billing Details</h2></div>
+    <div class="checkout-container">
+        <div class="billing-container">
+            <div class="form-gp1">
+                <div>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" placeholder="Enter your first name">
+                </div>
+                <div>
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div class="form-gp2">
+                <div>
+                    <label for="phone no">Pone Number</label><br>
+                    <input type="text" placeholder="Enter your phone number">
+                </div>
+                <div>
+                    <label for="email">Email Address</label><br>
+                    <input type="text" placeholder="Enter your email address">
+                </div>
+            </div>
+
+            <div class="form-gp3">
+                <div>
+                    <label for="comp name">Company Name (Optional)</label><br>
+                    <input type="text" placeholder="Enter your company name">
+                </div>
+            </div>
+            <div class="form-gp4">
+                <div>
+                    <label for="country name">Country</label><br>
+                    <input type="text" placeholder="Enter your country">
+                </div>
+            </div>
+
+            <div class="form-gp5">
+                <div>
+                    <label for="city">City/Town</label><br>
+                    <input type="text" placeholder="Enter your city/town">
+                </div>
+                <div>
+                    <label for="address">Address</label><br>
+                    <input type="text" placeholder="Enter your address">
+                </div>
+            </div>
+
+            <div class="form-gp6">
+                <div>
+                    <label for="postal code">Post Code</label><br>
+                    <input type="text" placeholder="Enter your post code">
+                </div>
+            </div>         
+        </div>
+
+        <div class="order-summary2">
+            <div class="summary-head">
+                <p> Order Summary</p>
+            </div>
+
+            <div class="summary-body">
+                <p>Subtotal</p>
+                <p>#450,000</p>
+            </div>
+            <div class="summary-body">
+                <p>Shipping</p>
+                <p>Free</p>
+            </div>
+            <div class="summary-body2">
+                <p>Add Coupon Code</p>
+                 <img src="./images/hugeicons_arrow-right-06.png" alt="">
+                
+            </div>
+            <div class="summary-body-total2">
+                <p>Total</p>
+                <p>#450,000</p>
+            </div>
+            <div class="confirm-payment">
+                <a class="confirm" href="./confirm.html"><button>Confirm Payment</button></a>
+            <a class="cancel" href="./cart.html"><button>Cancel</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="payment-head"><h2>How would you like to pay</h2></div>   
+    <div class="payment-container">
+        <div class="payment-option">
+            <form action="">
+                <input type="radio" name="debit/credit" id="radio-btn">
+                <label for="category option">Pay with debit/credit card</label>
+            </form>
+            <form action="">
+                <input type="radio" name="bnk tf" id="radio-btn">
+                <label for="category option">Pay with bank transfer</label>
+            </form>
+            <form action="">
+                <input type="radio" name="paypal" id="radio-btn">
+                <label for="category option">Pay with paypal</label>
+            </form>
+        </div>
+
+        <div class="payment-form">
+            <div class="payment-form-gp1">
+                <div>
+                    <form action="">
+                        <label for="name">Name on card</label><br>
+                        <input type="text" placeholder="Enter your name">
+                    </form>
+                </div>
+                <div>
+                    <form action="">
+                        <label for="card no">Card number</label><br>
+                        <input type="text" placeholder="Enter your card number">
+                    </form>
+                </div>
+            </div>
+
+            <div class="payment-form-gp2">
+                <div>
+                    <form action="">
+                        <label for="exp date">Expiry date</label><br>
+                        <input type="text" placeholder="Enter your expiry date">
+                    </form>
+                </div>
+                <div>
+                    <form action="">
+                        <label for="cvv">CVV</label><br>
+                        <input type="text" placeholder="******">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="checkboxes">
+            <form action="">
+                <input type="checkbox" checked name="billing" id="checkbox-btn">
+                <label for="billing address">Use shipping address as billing address</label>
+            </form>
+            <form action="">
+                <input type="checkbox" name="t&c" id="checkbox-btn">
+                <label for="t&c">I accept furndial terms & conditions</label>
+            </form>
+        </div>
+    </div>
+
+    <div class="feature-container">
+        <div>
+            <img class="icon1" src="./images/circum_delivery-truck.png" alt=""> 
+            <img class="icon2" src="./images/circum_delivery-truck.png" alt=""> 
+            <h4>Fast & Free <br>Shipping
+            </h4>     
+        </div>
+        <div>
+            <img class="icon1" src="./images/circum_delivery-truck.png" alt=""> 
+            <img class="icon2" src="./images/circum_delivery-truck.png" alt=""> 
+            <h4>Fast & Free <br>Shipping
+            </h4>     
+        </div>
+        <div>
+            <img class="icon1" src="./images/circum_delivery-truck.png" alt=""> 
+            <img class="icon2" src="./images/circum_delivery-truck.png" alt=""> 
+            <h4>Fast & Free <br>Shipping
+            </h4>     
+        </div>
+        <div>
+            <img class="icon1" src="./images/circum_delivery-truck.png" alt=""> 
+            <img class="icon2" src="./images/circum_delivery-truck.png" alt=""> 
+            <h4>Fast & Free <br>Shipping
+            </h4>     
+        </div>
+    </div>
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="get-started">
+                <span><img src="./images/Group 2.png" alt="logo">FURNDIAL</span>
+            <P>Ready to get started</P>
+            <button>Get Started</button>
+            </div>
+
+            <div class="footer-service">
+                <h5>Services</h5><br>
+                <p>Email Marketing</p>
+                <p>Camppaings</p>
+                <p>Branding</p>
+                <p>Offline</p>
+            </div>
+            <div class="footer-about">
+                <h5>About</h5><br>
+                <p>Our Story</p>
+                <p>Benefits</p>
+                <p>Team</p>
+                <p>Careers</p>
+            </div>
+            <div class="footer-help">
+                <h5>Help</h5><br>
+                <p>FAQs</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <div class="terms-condition">
+            <span> Terms & Condition </span>     
+            <span> Privacy Policy </span>
+            <span> &copy;2024 FURNDIAL. All Rights Reserved. </span>
+            <div class="social-icon">
+                <img src="./images/001-facebook.png" alt="">
+                <img src="./images/003-twitter.png" alt="">
+                <img src="./images/004-instagram.png" alt="">
+            </div>   
+        </div>
+    </footer>
+</body>
+</html>
